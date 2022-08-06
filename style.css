@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #e7332b;
+  text-decoration: none;
+}
+h3 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #514949;
+}
+.hero {
+  height: 800px;
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat;
+  text-align: center;
+}
+.logo-container {
+  display: flex;
+  margin: auto auto 7rem auto;
+  padding-top: 7rem;
+}
+.logo-container img {
+  margin: auto;
+}
+.hero-container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.hero-container h2 {
+  font-size: 3.2rem;
+  color: rgb(81, 73, 73);
+  margin-bottom: 3.6rem;
+  line-height: 4.8rem;
+  font-weight: 800;
+}
+.hero-container p {
+  font-size: 1.6rem;
+  color: rgba(81, 73, 73, 0.9);
+  line-height: 2.4rem;
+  margin-bottom: 1rem;
+}
+.button-container {
+  margin: 9.2rem auto 0;
+}
+.btn {
+  font-size: 1.6rem;
+  padding: 1.1rem 2.8rem;
+}
+.btn--solid {
+  margin-right: 2.4rem;
+  background-color: #e7332b;
+  border: 1px solid #e7332b;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+.btn--solid:hover {
+  background-color: transparent;
+  color: #e7332b;
+  border: 1px solid #e7332b;
+}
+.btn--outline {
+  color: #e7332b;
+  border: 1px solid #e7332b;
+  transition: all 0.3s ease-out;
+}
+.btn--outline:hover {
+  color: #fff;
+  background-color: #e7332b;
+}
+.services {
+  background-color: #fff;
+  overflow: hidden;
+}
+.services-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+.service-heading {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-top: 14rem;
+  color: #e7332b;
+}
+.description {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  margin: 0.8rem 0 6.4rem;
+}
+
+.service-item {
+  display: flex;
+  flex: 0 0 33.33%;
+  padding: 0 1.5rem;
+  gap: 2.6rem;
+  /* flex-wrap: wrap; */
+}
+.card-container {
+  position: relative;
+  z-index: 1;
+}
+.image {
+  width: 100%;
+  position: absolute;
+  left: -12rem;
+  top: -7.5rem;
+  z-index: -6666666;
+}
+.image1 {
+  width: 90%;
+  position: absolute;
+  right: -12rem;
+  top: -7.5rem;
+  z-index: -111;
+}
+.card-info {
+  width: 100%;
+  background-color: #fffafa;
+  padding: 6.1rem 4.7rem 8.2rem 3.6rem;
+}
+.card-content {
+  text-align: left;
+}
+.card-content img {
+  margin-bottom: 4.8rem;
+}
+.card-content p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(81, 73, 73, 0.9);
+  margin: 0 0 1.6rem !important;
+}
+.card-content h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+footer {
+  margin: 21.5rem auto 0;
+  max-width: 134rem;
+}
+.flex-container {
+  margin-bottom: 5.6rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  margin: 1rem;
+}
+.copyright {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 3.2rem;
+  font-weight: bold;
+  color: #514949;
+  padding-bottom: 9.7rem;
+}
+.flex-2 p {
+  font-size: 1.6rem;
+}
+.flex-3 p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(81, 73, 73, 0.9);
+}
+.contact-icons img {
+  width: 1.8rem;
+  margin-right: 0.5rem;
+}
